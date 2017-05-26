@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtTenPhim"
+        android:textSize="20sp"
+        android:textColor="#ff00"
+        android:text="Ten Phim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#0077ff"
+            android:text="The Loai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTheLoai"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textColor="#0077ff"
+            android:text="Quoc gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQuocGia"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:background="#ff00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView4" />
+</LinearLayout>
